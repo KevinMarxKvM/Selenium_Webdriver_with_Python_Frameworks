@@ -1,0 +1,18 @@
+2023-12-08 14:12:23,968 :INFO : test_formSubmission : Name is entered successfully
+2023-12-08 14:12:24,295 :INFO : test_formSubmission : email is entered successfully
+2023-12-08 14:12:24,609 :INFO : test_formSubmission : password is entered successfully
+2023-12-08 14:12:24,848 :INFO : test_formSubmission : Icecream checkbox clicked successfully
+2023-12-08 14:12:25,130 :INFO : test_formSubmission : female gender clicked successfully
+2023-12-08 14:12:25,333 :INFO : test_formSubmission : Employed radius clicked successfully
+2023-12-08 14:12:25,560 :INFO : test_formSubmission : Date of Birth entered successfully
+2023-12-08 14:12:25,755 :INFO : test_formSubmission : Submit tab clicked successfully
+2023-12-08 14:12:25,848 :INFO : test_formSubmission : Success message is displayed successfully
+2023-12-08 14:12:38,001 :INFO : test_e2e : click in the first page
+2023-12-08 14:12:38,514 :INFO : test_e2e : getting al the products name and selecting one of them
+2023-12-08 14:12:38,797 :INFO : test_e2e : clicking on checkout tab 1
+2023-12-08 14:12:39,005 :INFO : test_e2e : clicking on checkout Total tab
+2023-12-08 14:12:39,362 :INFO : test_e2e : looking for the country with 'Uni' text
+2023-12-08 14:12:44,521 :INFO : test_e2e : confirming United Kingdom
+2023-12-08 14:12:44,652 :INFO : test_e2e : clicking on the confirmation checkbox
+2023-12-08 14:12:44,825 :INFO : test_e2e : clicking on Submit
+2023-12-08 14:12:44,880 :INFO : test_e2e : Getting success message
