@@ -21,7 +21,7 @@ class TestOne(Baseclass):
             if productName == "Blackberry":
                 product.find_element(By.XPATH, "(//button[contains(text(),'Add')])[4]").click()
 
-        log.info("getting al the products name and selecting one of them")
+        log.info("getting all the products name and selecting one of them")
 
         checkoutPage.getClickCheckout()    #click on the checkout tab #1
 
