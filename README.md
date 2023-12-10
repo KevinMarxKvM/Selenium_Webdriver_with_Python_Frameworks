@@ -1,4 +1,4 @@
-This is a automation demo project where the functionalities of the homepage("test_HomePage.py" of the website are tested.
+This is a demo automation project where the functionalities of the homepage("test_HomePage.py" of the website are tested.
 Additionally, an end-to-end test is conducted (test_e2e.py), starting from the moment the web page is opened, selecting an item from the e-commerce website,
 and proceeding to the checkout page to complete the purchase.(go to the "tests" folder to review the code)
 
