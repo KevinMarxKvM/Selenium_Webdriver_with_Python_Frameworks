@@ -12,7 +12,7 @@ class TestOne(Baseclass):
         checkoutPage = homePage.shopItems()
         log.info("click in the first page")
 
-        products = checkoutPage.getCardTitle()  # all the product's name
+        products = checkoutPage.getCardTitle()  
 
         for product in products:
             productName = product.find_element(By.XPATH, "div/h4/a").text
