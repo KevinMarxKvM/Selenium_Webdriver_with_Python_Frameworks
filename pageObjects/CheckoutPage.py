@@ -14,7 +14,6 @@ class CheckOutPage:
 
     def getCardTitle(self):
         return self.driver.find_elements(*CheckOutPage.cardTitle)
-        # driver.find_elements(By.XPATH, "//div[@class='card h-100']")
 
     def getClickCheckout(self):
         return self.driver.find_element(*CheckOutPage.clickCheckout).click()
@@ -23,4 +22,3 @@ class CheckOutPage:
         self.driver.find_element(*CheckOutPage.checkoutTotal).click()
         countrySearch = ConfirmPage(self.driver)
         return countrySearch
-

@@ -23,7 +23,6 @@ class HomePage():
         self.driver.find_element(*HomePage.shop).click()
         checkoutPage = CheckOutPage(self.driver)
         return checkoutPage
-        # driver.find_element(By.CSS_SELECTOR, "a[href$='/angularpractice/shop']")
 
     def getCountrySearch(self):
         self.driver.find_element(*HomePage.countrySearch).send_keys("uni")
@@ -58,4 +57,3 @@ class HomePage():
         success = self.driver.find_element(*HomePage.successMessage)
         assert "Success!" in success.text
         return success
-

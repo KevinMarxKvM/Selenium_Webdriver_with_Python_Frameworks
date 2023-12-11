@@ -11,6 +11,7 @@ class ConfirmPage:
     clickCheckbox = (By.CSS_SELECTOR, "label[for='checkbox2']")
     submit = (By.XPATH, "//input[@type='submit']")
     success = (By.CSS_SELECTOR, "div[class='alert alert-success alert-dismissible']")
+
     def getCountrySearch(self):
         return self.driver.find_element(*ConfirmPage.countrySearch).send_keys("uni")
 
@@ -19,7 +20,6 @@ class ConfirmPage:
 
     def getClickCheckbox(self):
         return self.driver.find_element(*ConfirmPage.clickCheckbox).click()
-
 
     def getSubmit(self):
         return self.driver.find_element(*ConfirmPage.submit).click()
